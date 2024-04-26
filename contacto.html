@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Libreria iconos web: https://ionic.io/ionicons/usage   -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="contacto.css">
+    <link rel="shortcut icon" href="IMG/pelicula.png" type="image/x-icon">
+    <title>Contacto</title>
+</head>
+<body>
+    <form action="mailto:ivanmp142@gmail.com" id="formulario">
+        
+        <fieldset>
+            <legend>CONTRÁTAME</legend>
+            <fieldset>
+                <legend>Datos Personales</legend>
+                Nombre: <input type="text" name="" id="" placeholder="Ej. Jose" required>
+                Apellidos: <input type="text" name="" id="" placeholder="Ej. García Ruíz"><br>
+                Fecha de nacimiento: <input type="date" name="" id="" ><br>
+                Género: <input type="radio" name="genero" id="" value="Hombre">Hombre
+                        <input type="radio" name="genero" id="" value="Mujer">Mujer
+                <fieldset>
+                    <legend>Contacto cliente</legend>
+                    E-Mail:<input type="email" name="" id="" required>
+                    Número teléfono: <input type="text" name="numero" id="" required>
+                </fieldset>
+            <fieldset>
+                <legend>Solicito</legend>
+                Tipo de vídeo: <select name="video" id="">
+                        <option value="">Evento</option>
+                        <option value="">Producto</option>
+                </select><br>
+                Desplazamiento: <input type="radio" name="genero" id="" value="Si">Si
+                                <input type="radio" name="genero" id="" value="No">No
+            </fieldset>    
+            </fieldset>
+
+            <input type="submit" value="Registrar cliente">
+            <input type="reset" value="Borrar registro">
+         </fieldset>
+
+    </form>
+    <br>
+    
+</body>
+</html>
